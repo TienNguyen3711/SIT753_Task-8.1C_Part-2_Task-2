@@ -1,0 +1,23 @@
+{
+  "name": "sit753_task-8.1c_part-2_task-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TienNguyen3711/SIT753_Task-8.1C_Part-2_Task-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TienNguyen3711/SIT753_Task-8.1C_Part-2_Task-2/issues"
+  },
+  "homepage": "https://github.com/TienNguyen3711/SIT753_Task-8.1C_Part-2_Task-2#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
