@@ -1,6 +1,15 @@
 pipeline {
     agent any
 
+    options {
+        timestamps()
+        buildDiscarder(logRotator(numToKeepStr: '20'))
+    }
+
+    triggers {
+        pollSCM('* * * * *')
+    }
+
     stages {
         stage('Test') {
             steps {
